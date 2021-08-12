@@ -10,7 +10,7 @@ The motivation behind this project is to utilize primarily text based data set i
 
 ### Data:
 
-Primary data set will be Amazon customer reviews for electronics category (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Electronics_v1_00.tsv.gz).
+Primary data set will be Amazon customer reviews for electronics category (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Electronics_v1_00.tsv.gz) which has exactly 1 million observations.
 
 I will attempt to locate review data sets for vendors who have been banned from the platform for abusing the review system.
 
