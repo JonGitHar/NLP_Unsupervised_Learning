@@ -22,4 +22,4 @@ langdetect, googletrans to automatically detect and translate non-English review
 ## Findings
 
 ## Communication
-In addition to a [sample video](NLP_Unsupervised_Learning/Hidden Rating Demo on Tableau.mov) of the Tableu model depicting the alternative Airbnb rating system, an online deployment is also available on https://public.tableau.com/app/profile/jon1263/viz/NLPAirbnb/Sheet1?publish=yes.
+In addition to a [sample video](https://github.com/runjon90/NLP_Unsupervised_Learning/blob/main/Hidden%20Rating%20Demo%20on%20Tableau.mov) of the Tableu model depicting the alternative Airbnb rating system, an online deployment is also available at https://public.tableau.com/app/profile/jon1263/viz/NLPAirbnb/Sheet1?publish=yes.
