@@ -1,11 +1,10 @@
-# Topic Filter Rating of Hawaii Airbnb Listings via Natural Language Processing
+# Enhancing Airbnb Ratings through Natural Language Processing
 Jon Yu
 
 ## Abstract
 Airbnb has experienced exponential growth since its launch 2008. Aided by low mortgage rates in recent years which saw 56% quarter to quarter increase in multifamily unit investments and surge of new landlords (https://capitalcounselor.com/airbnb-statistics/), Airbnb currently observes 14,000 new hosts per month in 2021 (https://capitalcounselor.com/airbnb-statistics/). However, becoming a multi-property landlord does not necessarily pave the way to financial independence as the U.S. has reported 50% relative increase in unemployment from July 2019 to July 2021 (https://data.bls.gov/timeseries/LNS14000000).
 
-As a newly entering entrepreneur who isn't an established superhost, what can you do to appeal to guests and maximize your Airbnb listing's occupancy rate? To aid in this pursuit, I decided to launch this natural language processing and unsupervised learning project.
-
+As a newly entering entrepreneur who isn't an established superhost, what can you do to appeal to guests and maximize your Airbnb listing's occupancy rate? To aid in this pursuit, I decided to launch this natural language processing and unsupervised learning project. The end goal is to unravel undiscovered metrics which drive guest enjoyment and overall rating.
 
 ## Data
 Honolulu, Hawaii, boasts the highest Airbnb occupancy rate in the U.S. at 68% (https://capitalcounselor.com/airbnb-statistics/). Hence, the below two data sets from Inside Airbnb (http://insideairbnb.com/get-the-data.html) detailing Hawaii Airbnb's serve as the crux of this project. 
@@ -39,6 +38,17 @@ Text preprocessing and constructing the ever-evolving stopword list was an itera
 Among the four-way combination resulting from LSA, NMF, Count-Vectorizer, and TF-IDF using three to ten components, NMF TF-IDF at four components provided best interpretability.
 
 <img src = "Images/NMF.png" width = 800>
+
+PCA was tested, but ultimately not used for the final output. When testing dimensionality reduction via PCA, reduction to two dimensions resulted in too much data loss compared to three dimensions.
+
+The topics/weights from NMF were scaled and fed into the K-means clustering model. Inspecting the inertia elbow, it wasn't apparent if 5 or 7 clusters would be ideal. 
+
+<img src = "Images/Inertia.png" width = 500>
+
+After plotting both scenarios, 5 cluster selection resulted in better topic weighting distinction in each cluster. 
+
+<img src = "Images/7_Clusters.png" width = 400>
+<img src = "Images/5_Clusters.png" width = 400>
 
 ## Conclusions
 
