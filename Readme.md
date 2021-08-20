@@ -32,7 +32,13 @@ Subsequent to cleaning and text preprocessing, two data frames were together usi
 
 ## Findings
 
-Among the four-way combination resulting from LSA , NMF, Count-Vectorizer, and 
+Text preprocessing and constructing the ever-evolving stopword list was an iterative procedure. Looking at the Word Cloud, the words "beach" and "clean" clearly stood out and lent direction to the possible topics.
+
+<img src = "Images/WC.png" width = 800>
+
+Among the four-way combination resulting from LSA, NMF, Count-Vectorizer, and TF-IDF using three to ten components, NMF TF-IDF at four components provided best interpretability.
+
+<img src = "Images/NMF.png" width = 800>
 
 ## Conclusions
 
