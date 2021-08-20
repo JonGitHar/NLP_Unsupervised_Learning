@@ -17,9 +17,11 @@ Subsequent to NLP on the "reviews" data set, the two data frames were together u
 
 ## Algorithms/Tools
 
-langdetect, googletrans to automatically detect and translate non-English reviews
+- langdetect to automatically detect and translate non-English reviews
+- NLTK for text pre-processing, including lemmatization, stopwords
+- WordCloud for visualizing highest frequency words in corpus
 
 ## Findings
 
 ## Communication
-In addition to a [sample video](https://github.com/runjon90/NLP_Unsupervised_Learning/blob/main/Hidden%20Rating%20Demo%20on%20Tableau.mov) of the Tableu model depicting the alternative Airbnb rating system, an online deployment is also available at https://public.tableau.com/app/profile/jon1263/viz/NLPAirbnb/Sheet1?publish=yes.
+The presentation slide deck is available [here](https://github.com/runjon90/NLP_Unsupervised_Learning/blob/main/Slidedeck.pdf). In addition to a [sample video](https://github.com/runjon90/NLP_Unsupervised_Learning/blob/main/Hidden%20Rating%20Demo%20on%20Tableau.mov) of the Tableu model depicting the alternative Airbnb rating system, an online deployment is also available at https://public.tableau.com/app/profile/jon1263/viz/NLPAirbnb/Sheet1?publish=yes. Lastly, the entirety of the code used can be found within this [repo](https://github.com/runjon90/NLP_Unsupervised_Learning/tree/main/Code).
